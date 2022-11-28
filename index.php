@@ -9,7 +9,9 @@
 <body>
     <form action="print.php" method="GET">
     <input type="text" name="nome">
+    <input type="text" name="censura">
     <button type="submit">invia</button>
+    <button type="reset">cancella</button>
     </form>
 </body>
 </html>

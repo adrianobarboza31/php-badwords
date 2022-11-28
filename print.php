@@ -1,5 +1,5 @@
 <?php
-$nomecensurato= $_GET['nome'];
+$nomecensurato= $_GET['censura'];
 $nome = $_GET['nome'];
 $lunghezza= strlen($nome);
 $censura= str_replace($nomecensurato, "***", $nome);
